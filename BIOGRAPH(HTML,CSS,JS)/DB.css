@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main_container{
+    font-family: 'Kanit', sans-serif;
+    background-color: #e9e3e6;
+    /* max-height: 100%; */
+    margin: 20px auto;
+    /* height: 70%; */
+    /* width:70% */
+    width: 800px;
+    height: 900px;
+    /* border-radius: 15%; */
+}
+#first_section{
+    display: flex;
+}
+#image{
+    /* background-color: blue; */
+    height: 50%;
+    width: 50%;
+}
+img{
+    width: 400px;
+    height: 450px;
+    /* margin-top: 10px; */
+}
+.second{
+    background-color: #F4DF4EFF;
+    /* padding: 20px auto; */
+    width: 400px;
+    height: 450px;
+}
+#word{
+    margin: 100px 50px 50px 50px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+#wrd{
+    margin-top: 30px;
+    margin-bottom: 20px;  
+}
+strong{
+    font-weight: bolder;
+    font-size: larger;
+}
+#second_section{
+    display: flex;
+}
+.third{
+    background-color: #F4DF4EFF;
+    margin-top: -5px;
+    width: 400px;
+    height: 450px;
+}
+.fourth{
+    width: 400px;
+}
+#word2{
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+}
+#word3{
+    margin: 100px 50px 50px 50px;
+    line-height: 30px;
+    text-align: center;
+}
+#details{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+#name{
+    font-weight: bold;
+}
+#role{
+    font-weight: bold;
+}
+#email{
+    font-weight: bold;
+}
+#phone{
+    font-weight: bold;
+}
+#btn{
+    background-color: purple;
+    border-radius: 5px;
+}
